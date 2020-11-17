@@ -1,0 +1,67 @@
+
+#or_title{
+
+  text-align: center;
+  background: #e6e6e6;
+  margin-top: 5%;
+}
+
+.col-sm-6{
+  line-height: 20px;
+}
+
+.panel-heading label{
+  text-align: center;
+}
+
+label{
+  font-size: 20px;
+}
+
+#button_submit{
+  width: 20%;
+}
+
+.container{
+  padding-top: 5%;
+}
+
+h1{
+  font-family: sans-serif;
+  font-style: italic;
+
+}
+
+.navbar-brand
+{
+
+
+    position: relative;
+    background: url(.../images/logo.png);
+    right: auto;
+    max-height: 70px; /* height of the navbar */
+}
+
+img{
+  height: 50px;
+}
+
+.navbar{
+  height: 80px;
+}
+
+#store_login{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#btn_login{
+  width: 30%;
+  position: relative;
+  left: 35%
+}
+
+#register_field{
+  text-transform: capitalize;
+}
