@@ -1,14 +1,11 @@
 <?php
-
-
+include_once 'config/core.php';
+include_once 'nav_header.php';
+include_once 'config/database.php';
+include 'objects/customer.php';
 $action = isset($_GET['action']) ? $_GET['action'] : "";
 
-if ($action == "") {
-  header("location: login.php?login_required");
-}
+echo $_SESSION['firstname'];
 
-else{
-  echo "welcome user";
-}
-
+include_once 'nav_footer.php';
  ?>
